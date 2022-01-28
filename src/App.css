@@ -36,3 +36,88 @@
     transform: rotate(360deg);
   }
 }
+
+nav {
+  background-color: rgb(6, 71, 26);
+  font-weight: bold;
+  height: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+.homelinks a {
+  text-decoration: none;
+  color: rgb(1, 1, 44)
+}
+
+.beer-list img {
+  width: 5vw
+}
+
+.beer-list {
+  background-color: rgb(228, 238, 228);
+  border-bottom: 3px solid rgb(190, 214, 190);
+  margin-right: 100px
+}
+
+.mainbeers {
+  display: flex
+}
+
+.allbeers {
+  display: flex;
+  flex-direction: column;
+  max-height: 90vh; 
+  width: 40vw;
+  overflow: scroll;
+  color: rgb(1, 1, 44);
+}
+
+.allbeerslink {
+  text-decoration: none;
+  color: rgb(1, 1, 44);
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.thisbeer {
+  color: rgb(1, 1, 44)
+
+}
+
+.thisbeer img {
+  width: 8vw
+}
+
+.thisbeer p {
+  max-width: 40vw
+}
+
+.randombeer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.randombeer img {
+  width: 5vw
+}
+
+.randombeer p {
+  max-width: 60vw
+}
+
+i, h1 {
+  color: rgb(1, 1, 44);
+  margin: 10px
+}
