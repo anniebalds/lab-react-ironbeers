@@ -13,7 +13,6 @@ function App() {
 
   const [beers, setBeers] = useState([]);
   const [randomBeer, setRandomBeer] = useState({});
-  const [newBeer, setNewBeer] = useState({})
 
   useEffect(() => {
     axios
@@ -34,14 +33,6 @@ function App() {
     .catch((e) => console.log(e));
   }, []);
 
-  useEffect(() => {
-    axios
-    .post('https://ih-beers-api2.herokuapp.com/beers/new')
-    .then((response) => {
-      setNewBeer(response.data);
-    })
-    .catch((e) => console.log(e));
-  }, []);
 
 
 
